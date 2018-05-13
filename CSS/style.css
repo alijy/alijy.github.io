@@ -1,0 +1,29 @@
+body {
+  background-color: lightsteelblue;/*rgba(255, 255, 128, .5);*/
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  /* background-color: orange; */
+  /* background-image: url(https://placeimg.com/1000/800/nature); */
+  background-image: url(https://picsum.photos/1280/800/?random);
+  padding: 5px;
+}
+
+h1 {
+  font-size: 72px;
+  color: white;
+}
+
+header a {
+  color: yellow;
+  text-decoration: none;
+  background-color: blue;
+  border: solid blue 2px;
+  border-radius: 25% 10%;
+}
+
+.main_img {
+  border-radius: 50%;
+}

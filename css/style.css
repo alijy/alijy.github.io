@@ -1,5 +1,9 @@
 /* This is css */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: lightsteelblue;/*rgba(255, 255, 128, .5);*/
   text-align: center;
@@ -10,6 +14,8 @@ header {
   /* background-color: orange; */
   /* background-image: url(https://placeimg.com/1000/800/nature); */
   background-image: url(https://picsum.photos/1280/800/?random);
+  background-size: 100%;
+  background-repeat: no-repeat;
   padding: 5px;
 }
 
@@ -21,9 +27,17 @@ h1 {
 header a {
   color: yellow;
   text-decoration: none;
+}
+
+header li {
+  font-size: 20px;
+  display: block;
   background-color: blue;
   border: solid blue 2px;
-  border-radius: 25% 10%;
+  border-radius: 25% 0%;
+  width: 100px;
+  padding: 20px 0;
+  margin-bottom: 5px;
 }
 
 .main_img {
